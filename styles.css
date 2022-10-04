@@ -1,0 +1,67 @@
+/* Universal Styles */
+
+html {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+}
+
+main {
+    position: relative;
+
+}
+
+.center {
+    text-align: center;
+}
+
+section {
+    margin-top: 5rem;
+}
+
+.highlight {
+    background-color: rgba(60, 255, 0, 0.87);
+    color: rgb(32, 32, 255);
+    font-weight: bold;
+}
+
+
+
+/* Header */
+header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0rem;
+    border-bottom: 1px solid black;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header li {
+    list-style: none;
+}
+
+header li {
+    padding: 0 2.5rem;
+}
+  
+header a {
+    text-decoration: none;
+}
+
+
+/* Top Banner */
+
+
+
+/* Specialization */
+
+.troop-types {
+    display: flex;
+    flex-wrap: wrap;
+
+}
