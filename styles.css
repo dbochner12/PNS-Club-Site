@@ -143,13 +143,16 @@ header a {
         margin-bottom: 0.5rem;
     }
 
-troop-img {
+    troop-img {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-}
-
+    }
+    .troop-img a {
+        width: 100%;
+        height: auto;
+    }
     .troop-type {
         width: 100%;
         margin-top: 1rem;
