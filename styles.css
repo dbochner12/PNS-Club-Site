@@ -18,7 +18,7 @@ main {
 }
 
 section {
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 
 .highlight {
@@ -31,10 +31,7 @@ section {
 
 /* Header */
 header {
-    position: fixed;
-    z-index: 100;
     width: 100%;
-    top: 0rem;
     border-bottom: 1px solid black;
     background-color: teal;
     height: fit-content;
@@ -61,12 +58,56 @@ header a {
 
 /* Top Banner */
 
-
+.top-banner h1 {
+    margin: 3.5rem 0;
+    padding: 1rem;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    color: coral;
+}
 
 /* Specialization */
+
+.specialization p {
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
 
 .troop-types {
     display: flex;
     flex-wrap: wrap;
+}
 
+.troop-types h4 {
+  margin: 0;
+  text-decoration: underline;
+}
+
+.troop-types p {
+  margin-top: 0.5rem;
+  line-height: 1.8;
+}
+
+.troop-type {
+    border-bottom: dotted 1px black;
+    width: 48%;
+    margin: 0.5rem auto;
+}
+
+.riders {
+  background-color: rgb(37, 165, 91);
+}
+
+.fighters {
+    background-color: rgb(37, 165, 91);
+}
+  
+.shooters {
+    background-color: rgb(37, 165, 91);
+}
+
+@media only screen and (max-width: 760px) {
+    .troop-types {
+      top: 2.5625rem;
+    }
 }
