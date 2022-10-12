@@ -162,6 +162,16 @@ header a {
 
 @media only screen and (max-width: 390px) {
 
+    header li {
+        list-style: none;
+        padding: 0 auto;
+        font-weight: bold;
+    }
+
+    header ul:first-child {
+        padding: 0 0;
+    }
+
     body {
         margin: 0;
     }
@@ -184,7 +194,6 @@ header a {
     }
     .troop-type {
         min-width: none;
-        max-width: 390px;
         width: 100%;
         margin-top: 1rem;
         margin-bottom: 0;
