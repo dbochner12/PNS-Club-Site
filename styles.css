@@ -96,7 +96,7 @@ header a {
 .troop-type {
     border-bottom: dotted 1px black;
     width: 48%;
-    min-width: 30rem;
+    /* min-width: 30rem; */
     margin: 0.5rem auto;
 }
 
@@ -183,6 +183,7 @@ header a {
         height: auto;
     }
     .troop-type {
+        min-width: none;
         max-width: 390px;
         width: 100%;
         margin-top: 1rem;
