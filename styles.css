@@ -172,6 +172,10 @@ header a {
         padding: 0 0;
     }
 
+    header ul:last-child {
+        padding: 0 auto;
+    }
+
     body {
         margin: 0;
     }
