@@ -183,7 +183,7 @@ header a {
         height: auto;
     }
     .troop-type {
-        min-width: 20rem;
+        max-width: 390px;
         width: 100%;
         margin-top: 1rem;
         margin-bottom: 0;
