@@ -179,11 +179,11 @@ header a {
         justify-content: center;
     }
     .troop-img a {
-        min-width: 20rem;
         width: 100%;
         height: auto;
     }
     .troop-type {
+        min-width: 20rem;
         width: 100%;
         margin-top: 1rem;
         margin-bottom: 0;
