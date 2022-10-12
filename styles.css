@@ -116,6 +116,20 @@ header a {
 /* Media Queries */
 
 @media only screen and (max-width: 975px) {
+    header li {
+        list-style: none;
+        padding: 0 auto;
+        font-weight: bold;
+    }
+
+    header ul:first-child {
+        padding: 0 0;
+    }
+
+    header ul:last-child {
+        padding: 0 auto;
+    }
+    
     body {
         margin: 0;
     }
@@ -132,6 +146,19 @@ header a {
 
 
 @media only screen and (max-width: 760px) {
+    header li {
+        list-style: none;
+        padding: 0 auto;
+        font-weight: bold;
+    }
+
+    header ul:first-child {
+        padding: 0 0;
+    }
+
+    header ul:last-child {
+        padding: 0 auto;
+    }
 
     body {
         margin: 0;
