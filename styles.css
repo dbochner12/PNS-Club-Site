@@ -159,3 +159,33 @@ header a {
         margin-bottom: 0;
     }
 }
+
+@media only screen and (max-width: 390px) {
+
+    body {
+        margin: 0;
+    }
+
+    img {
+        min-width: 80%;
+        height: auto;
+        margin-bottom: 0.5rem;
+    }
+
+    troop-img {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .troop-img a {
+        min-width: 20rem;
+        width: 100%;
+        height: auto;
+    }
+    .troop-type {
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+}
